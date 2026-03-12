@@ -1,0 +1,258 @@
+[
+    {
+        "key": "ISE7FHDA",
+        "version": 11,
+        "library": {
+            "type": "group",
+            "id": 6379466,
+            "name": "LTER-GCE",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/lter-gce",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/6379466/items/ISE7FHDA",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/lter-gce/items/ISE7FHDA",
+                "type": "text/html"
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 19339255,
+                "username": "GCELTER",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gcelter",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Borst et al.",
+            "parsedDate": "2018-08-31",
+            "numChildren": 0
+        },
+        "data": {
+            "key": "ISE7FHDA",
+            "version": 11,
+            "itemType": "journalArticle",
+            "title": "Foundation species enhance food web complexity through non-trophic facilitation",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Annieke C. W.",
+                    "lastName": "Borst"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Wilco C. E. P.",
+                    "lastName": "Verberk"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Christine",
+                    "lastName": "Angelini"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Jildou",
+                    "lastName": "Schotanus"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Jan-Willem",
+                    "lastName": "Wolters"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Marjolijn J. A.",
+                    "lastName": "Christianen"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Els M.",
+                    "lastName": "Van Der Zee"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Marlous",
+                    "lastName": "Derksen-Hooijberg"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Tjisse",
+                    "lastName": "Van Der Heide"
+                },
+                {
+                    "creatorType": "editor",
+                    "firstName": "Andrea",
+                    "lastName": "Belgrano"
+                }
+            ],
+            "abstractNote": "",
+            "publicationTitle": "PLOS ONE",
+            "publisher": "",
+            "place": "",
+            "date": "2018-8-31",
+            "volume": "13",
+            "issue": "8",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "e0199152",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "PLoS ONE",
+            "DOI": "10.1371/journal.pone.0199152",
+            "citationKey": "",
+            "url": "https://dx.plos.org/10.1371/journal.pone.0199152",
+            "accessDate": "2026-01-13T20:00:02Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "1932-6203",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "en",
+            "libraryCatalog": "DOI.org (Crossref)",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [],
+            "relations": {},
+            "dateAdded": "2026-01-13T20:00:02Z",
+            "dateModified": "2026-01-13T20:00:02Z"
+        }
+    },
+    {
+        "key": "NSVLWK2F",
+        "version": 9,
+        "library": {
+            "type": "group",
+            "id": 6379466,
+            "name": "LTER-GCE",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/lter-gce",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/6379466/items/NSVLWK2F",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/lter-gce/items/NSVLWK2F",
+                "type": "text/html"
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 19339255,
+                "username": "GCELTER",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gcelter",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Coleman et al.",
+            "parsedDate": "2025",
+            "numChildren": 0
+        },
+        "data": {
+            "key": "NSVLWK2F",
+            "version": 9,
+            "itemType": "journalArticle",
+            "title": "Quantifying the impacts of future shoreline modification on biodiversity in a case study of coastal Georgia, United States",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Daniel J.",
+                    "lastName": "Coleman"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Rachel K.",
+                    "lastName": "Gittman"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Craig E.",
+                    "lastName": "Landry"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "James E.",
+                    "lastName": "Byers"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Clark R.",
+                    "lastName": "Alexander"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "G. Paul",
+                    "lastName": "Coughlin"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "C. Brock",
+                    "lastName": "Woodson"
+                }
+            ],
+            "abstractNote": "Abstract \n            People often modify the shoreline to mitigate erosion and protect property from storm impacts. The 2 main approaches to modification are gray infrastructure (e.g., bulkheads and seawalls) and natural or green infrastructure (NI) (e.g., living shorelines). Gray infrastructure is still more often used for coastal protection than NI, despite having more detrimental effects on ecosystem parameters, such as biodiversity. We assessed the impact of gray infrastructure on biodiversity and whether the adoption of NI can mitigate its loss. We examined the literature to quantify the relationship of gray infrastructure and NI to biodiversity and developed a model with temporal geospatial data on ecosystem distribution and shoreline modification to project future shoreline modification for our study location, coastal Georgia (United States). We applied the literature‐derived empirical relationships of infrastructure effects on biodiversity to the shoreline modification projections to predict change in biodiversity under different NI versus gray infrastructure scenarios. For our study area, which is dominated by marshes and use of gray infrastructure, when just under half of all new coastal infrastructure was to be NI, previous losses of biodiversity from gray infrastructure could be mitigated by 2100 (net change of biodiversity of +0.14%, 95% confidence interval −0.10% to +0.39%). As biodiversity continues to decline from human impacts, it is increasingly imperative to minimize negative impacts when possible. We therefore suggest policy and the permitting process be changed to promote the adoption of NI. \n          ,  \n             \n               \n              Cuantificación del impacto de la futura modificación de la costa sobre la biodiversidad en un estudio de caso de la costa de Georgia, Estados Unidos \n               \n                Resumen \n                Las personas modifican con frecuencia la costa para mitigar la erosión o proteger su propiedad del impacto de las tormentas. Los dos enfoques principales para la modificación son la infraestructura gris (p. ej.: mamparos y malecones) y la infraestructura verde o natural (IN) (p.ej.: costas vivientes). La infraestructura gris es más común que la IN, a pesar de que tiene efectos dañinos sobre los parámetros ambientales, como la biodiversidad. Evaluamos el impacto de la infraestructura gris sobre la biodiversidad y si la adopción de la IN puede mitigar su pérdida. Analizamos la literatura para cuantificar la relación de la infraestructura gris y la IN con la biodiversidad. También desarrollamos un modelo con datos geoespaciales temporales sobre la distribución de los ecosistemas y la modificación de la costa para proyectar la modificación costera en el futuro en nuestra localidad de estudio: la costa de Georgia, Estados Unidos. Aplicamos las relaciones empíricas derivadas de la literatura de los efectos de la infraestructura sobre la biodiversidad a las proyecciones de modificación de la costa para predecir el cambio en la biodiversidad bajo diferentes escenarios de infraestructura gris versus IN. En nuestra área de estudio, que está dominada por marismas y usa infraestructura gris, cuando un poco menos de la mitad de toda la infraestructura costera nueva debería ser IN, las pérdidas previas de biodiversidad a partir de la infraestructura gris podrían mitigarse para 2100 (cambio neto de la biodiversidad de +0.14%, 95% intervalo de confianza ‐0.10% a +0.39%). Conforme la biodiversidad siga en declive por el impacto humano, cada vez es más imperativo minimizar el impacto negativo cuando sea posible. Por lo tanto, sugerimos que se modifiquen las políticas y el proceso de permisos para promover la adopción de la IN.",
+            "publicationTitle": "Conservation Biology",
+            "publisher": "",
+            "place": "",
+            "date": "02/2025",
+            "volume": "39",
+            "issue": "1",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "e14301",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "Conservation Biology",
+            "DOI": "10.1111/cobi.14301",
+            "citationKey": "",
+            "url": "https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.14301",
+            "accessDate": "2026-01-12T19:14:26Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "0888-8892, 1523-1739",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "en",
+            "libraryCatalog": "DOI.org (Crossref)",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "AXJEJUDD",
+                "KC7RIFNB"
+            ],
+            "relations": {},
+            "dateAdded": "2026-01-12T19:14:26Z",
+            "dateModified": "2026-01-12T19:22:57Z"
+        }
+    }
+]
