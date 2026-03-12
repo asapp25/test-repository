@@ -1,6 +1,6 @@
 //function to fetch personnel json file and display
 async function fetchAndDisplayBiblioData(){
-    const url = './Biblio.json';
+    const url = './docs/Biblio.json';
 
     try {
         //fetch the data for the biblio json file
