@@ -14,7 +14,7 @@ async function fetchAndDisplayBiblioData(){
 
         const pubList = document.getElementById('pub-list')
 
-        userData.array.forEach(element => {
+        userData.forEach(element => {
             const listItem = document.createElement('li');
             listItem.textContent = 'Title: ${element.name}, Publication Title: ${element.publicationTitle}';
             pubList.appendChild(listItem);
