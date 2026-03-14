@@ -16,7 +16,11 @@ async function fetchAndDisplayBiblioData(){
 
         userData.forEach(element => {
             const listItem = document.createElement('li');
-            listItem.textContent = `Title: ${element.data.title}, Publication Title: ${element.data.publicationTitle}`;
+            listItem.textContent = `${element.meta.createrSummary}. `
+                            + `${element.meta.parsedDate}. `
+                            + `${element.data.title}. `
+                            + `${element.data.publicationTitle}. `
+                            + `(DOI: ${element.data.DOI})` ;
             pubList.appendChild(listItem);
             
             //console.log(element.data.title)
