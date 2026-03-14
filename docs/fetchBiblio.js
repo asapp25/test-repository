@@ -6,7 +6,7 @@ async function fetchAndDisplayBiblioData(){
         //fetch the data for the biblio json file
         const response = await fetch(url);
         if(!response.ok) {
-            throw new Error('HTTP error! status: ${response.status}');
+            throw new Error(`HTTP error! status: ${response.status}`);
 
         }
         // parse the response
@@ -16,7 +16,7 @@ async function fetchAndDisplayBiblioData(){
 
         userData.forEach(element => {
             const listItem = document.createElement('li');
-            listItem.textContent = 'Title: ${element.name}, Publication Title: ${element.publicationTitle}';
+            listItem.textContent = `Title: ${element.title}, Publication Title: ${element.publicationTitle}`;
             pubList.appendChild(listItem);
             
         });
