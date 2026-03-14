@@ -28,7 +28,7 @@ async function fetchAndDisplayBiblioData(){
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
-                            + `(DOI: (` + a + `)` ;
+                            + `(DOI: ` + listItem.appendChild(a) + `)` ;
             pubList.appendChild(listItem);
             
             //console.log(element.data.title)
