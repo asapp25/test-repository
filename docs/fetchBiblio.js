@@ -33,7 +33,7 @@ async function fetchAndDisplayBiblioData(){
                             + `${element.data.publicationTitle}. `
                             + `(DOI: `;
             listItem.appendChild(a);
-            listItem.appendChild(`)`);
+            listItem.appendChild(")");
             
             pubList.appendChild(listItem);
 
