@@ -18,12 +18,17 @@ async function fetchAndDisplayBiblioData(){
             const listItem = document.createElement('li');
             const pubDate = new Date(element.meta.parsedDate)
             const pubYear = pubDate.getFullYear();
+            const doiUrl = element.data.url;
+            const doiText = element.data.DOI;
+            const a = document.createElement('a');
+            a.setAttribute('href',doiUrl);
+            a.innerHTML = doiText;
 
             listItem.textContent = `${element.meta.creatorSummary}. `
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
-                            + `(DOI: <a href="http://doi.org/${element.data.DOI}>${element.data.DOI}</a>)` ;
+                            + `(DOI: (` + a + `)` ;
             pubList.appendChild(listItem);
             
             //console.log(element.data.title)
