@@ -31,11 +31,14 @@ async function fetchAndDisplayBiblioData(){
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
-                            + `(DOI: ` 
-                            + listItem.appendChild(a) 
-                            + `)`;
-
+                            + `(DOI: `;
             pubList.appendChild(listItem);
+
+            
+            listItem.appendChild(a);
+            listItem.appendChild(`)`);
+
+
             
             //console.log(element.data.title)
             //console.log(element.data.publicationTitle)
