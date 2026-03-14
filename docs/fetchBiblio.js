@@ -19,7 +19,7 @@ async function fetchAndDisplayBiblioData(){
             const pubDate = new Date(element.meta.parsedDate)
             const pubYear = pubDate.getFullYear();
             const doiUrl = element.data.url;
-            const doiText = 'test';//element.data.DOI;
+            const doiText = element.data.DOI;
             const a = document.createElement('a');
             a.href = doiUrl;
             a.textContent = doiText;
@@ -31,7 +31,9 @@ async function fetchAndDisplayBiblioData(){
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
-                            + `(DOI: ` + document.appendChild(a) + `)`;
+                            + `(DOI: ` 
+                            + document.appendChild(a) 
+                            + `)`;
 
             pubList.appendChild(listItem);
             
