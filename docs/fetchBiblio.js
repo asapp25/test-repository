@@ -21,14 +21,18 @@ async function fetchAndDisplayBiblioData(){
             const doiUrl = element.data.url;
             const doiText = element.data.DOI;
             const a = document.createElement('a');
-            a.setAttribute('href',doiUrl);
-            a.innerHTML = doiText;
+            a.href = doiUrl;
+            a.textContent = doiText;
+            a.target = "_blank";
+            //a.setAttribute('href',doiUrl);
+            //a.innerHTML = doiText;
 
             listItem.textContent = `${element.meta.creatorSummary}. `
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
-                            + `(DOI: ` + listItem.appendChild(a) + `)` ;
+                            + `(DOI: ` + listItem.appendChild(a) + `)`;
+                            
             pubList.appendChild(listItem);
             
             //console.log(element.data.title)
