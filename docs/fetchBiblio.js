@@ -20,7 +20,7 @@ async function fetchAndDisplayBiblioData(){
             pubList.appendChild(listItem);
             
             console.log(element.data.title)
-            console.log(element.data.publicationTitle)
+            //console.log(element.data.publicationTitle)
         });
 
     } catch (error) {
