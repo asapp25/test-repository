@@ -18,8 +18,8 @@ async function fetchAndDisplayBiblioData(){
             const listItem = document.createElement('li');
             const pubDate = new Date(element.meta.parsedDate)
             const pubYear = pubDate.getFullYear();
-            const doiUrl = element.data.url;
-            const doiText = element.data.DOI;
+            const doiUrl = "http://google.com";//element.data.url;
+            const doiText = "text text";//element.data.DOI;
             const a = document.createElement('a');
             a.href = doiUrl;
             a.textContent = doiText;
