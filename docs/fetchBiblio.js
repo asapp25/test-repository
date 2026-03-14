@@ -19,6 +19,8 @@ async function fetchAndDisplayBiblioData(){
             listItem.textContent = `Title: ${element.data.title}, Publication Title: ${element.data.publicationTitle}`;
             pubList.appendChild(listItem);
             
+            console.log(element.data.title)
+            console.log(element.data.publicationTitle)
         });
 
     } catch (error) {
