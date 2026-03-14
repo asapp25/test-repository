@@ -30,7 +30,7 @@ async function fetchAndDisplayBiblioData(){
             const title = element.data.title;
             const pubTitle = element.data.publicationTitle;
 
-            listItem.textContent = authors + ' ' +pubyear + ' ' + title + ' ' + pubTitle + ' (DOI: <a href="' + doiUrl + '" target="_blank">' + doiText + '</a>)';
+            listItem.textContent = authors + ' ' + pubYear + ' ' + title + ' ' + pubTitle + ' (DOI: <a href="' + doiUrl + '" target="_blank">' + doiText + '</a>)';
 
             //listItem.textContent = `${element.meta.creatorSummary}. `
             //                + pubYear + `. `
