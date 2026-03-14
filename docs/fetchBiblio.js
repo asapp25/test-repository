@@ -19,7 +19,7 @@ async function fetchAndDisplayBiblioData(){
             const pubDate = new Date(element.meta.parsedDate)
             const pubYear = pubDate.getFullYear();
 
-            listItem.textContent = `${element.meta.createrSummary}. `
+            listItem.textContent = `${element.meta.creatorSummary}. `
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
