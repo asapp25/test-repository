@@ -23,7 +23,7 @@ async function fetchAndDisplayBiblioData(){
                             + pubYear + `. `
                             + `${element.data.title}. `
                             + `${element.data.publicationTitle}. `
-                            + `(DOI: ${element.data.DOI})` ;
+                            + `(DOI: <a href="http://doi.org/${element.data.DOI}>${element.data.DOI}</a>)` ;
             pubList.appendChild(listItem);
             
             //console.log(element.data.title)
