@@ -60,7 +60,7 @@ async function fetchAndDisplayPersonnelData(){
 
     } catch (error) {
         console.error('error fetching json:', error);
-        document.getElementById('pub-list').innerHTML = '<li>Error loading data</li>';
+        document.getElementById('personnel-list').innerHTML = '<li>Error loading data</li>';
     }
 }
 
