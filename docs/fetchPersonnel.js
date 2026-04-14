@@ -37,7 +37,7 @@ async function fetchAndDisplayPersonnelData(){
             //const title = element.data.title;
             //const pubTitle = element.data.publicationTitle;
 
-            listItem.innerHTML += '<a href="'  + baseUrl + '?id=' + nameID + '"> ' + friendName + '</a> ' + webCaption + 'email: ' + email + '. ' 
+            listItem.innerHTML += '<a href="'  + baseUrl + '?id=' + nameID + '"> ' + friendName + '</a>, ' + webCaption + 'email: ' + email + '. ' 
 
             //listItem.textContent = `${element.meta.creatorSummary}. `
             //                + pubYear + `. `
