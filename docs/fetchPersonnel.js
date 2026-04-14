@@ -12,7 +12,8 @@ async function fetchAndDisplayPersonnelData(){
         // parse the response
         const userData = await response.json();
 
-        const pubList = document.getElementById('personnel-list')
+        const gradList = document.getElementById('grad-list')
+        const piList = document.getElementById('pi-list')
 
         userData.forEach(element => {
             const listItem = document.createElement('li');
@@ -20,34 +21,23 @@ async function fetchAndDisplayPersonnelData(){
             const webCaption = element.WebCaption;
             const email = element.Email;           
             const nameID = element.NameID;
+            const roleCode = element.RoleCode;
 
 
 
-            //const pubYear = pubDate.getFullYear();
-            //const doiUrl = element.data.url;
-            //const doiText = element.data.DOI;
+            
             const baseUrl = "https://gce-lter.marsci.uga.edu/public/app/personnel_bios.asp";
-            //const a = document.createElement('a');
-            //a.href = "https://gce-lter.marsci.uga.edu/public/app/personnel_bios.asp";
-            //a.textContent = friendName;
-            //a.target = "_blank";
-            //a.setAttribute('href',doiUrl);
-            //a.innerHTML = doiText;
-            //const authors = element.meta.creatorSummary;
-            //const title = element.data.title;
-            //const pubTitle = element.data.publicationTitle;
+            
 
             listItem.innerHTML += '<a href="'  + baseUrl + '?id=' + nameID + '"> ' + friendName + '</a>, ' + webCaption + 'email: ' + email + '. ' 
 
-            //listItem.textContent = `${element.meta.creatorSummary}. `
-            //                + pubYear + `. `
-            //               + `${element.data.title}. `
-            //               + `${element.data.publicationTitle}. `
-            //                + `(DOI: `;
-            //listItem.appendChild(a);
-            //listItem.appendChild(")");
+            if(roleCode == "COPI"){
+                piList.appendChild(listItem);
+            } 
             
-            pubList.appendChild(listItem);
+           if(roleCode == "GSP"){
+                gradList.appendChild(listItem);
+            }
 
             
             
