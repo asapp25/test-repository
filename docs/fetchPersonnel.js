@@ -33,9 +33,9 @@ async function fetchAndDisplayPersonnelData(){
             //a.target = "_blank";
             //a.setAttribute('href',doiUrl);
             //a.innerHTML = doiText;
-            const authors = element.meta.creatorSummary;
-            const title = element.data.title;
-            const pubTitle = element.data.publicationTitle;
+            //const authors = element.meta.creatorSummary;
+            //const title = element.data.title;
+            //const pubTitle = element.data.publicationTitle;
 
             listItem.innerHTML += '<a href="'  + baseUrl + '?id=' + nameID + '"> ' + friendName + '</a> ' + webCaption + 'email: ' + email + '. ' 
 
