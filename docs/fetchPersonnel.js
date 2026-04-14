@@ -17,7 +17,7 @@ async function fetchAndDisplayPersonnelData(){
         userData.forEach(element => {
             const listItem = document.createElement('li');
             const friendName = element.FriendlyName;
-            const webCaption = element.webCaption;
+            const webCaption = element.WebCaption;
             const email = element.Email;           
             const nameID = element.NameID;
 
