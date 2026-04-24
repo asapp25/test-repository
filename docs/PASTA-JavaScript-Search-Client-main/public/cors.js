@@ -47,5 +47,6 @@ function makeCorsRequest(url, headerDict, successCallback, errorCallback) {
          xhr.setRequestHeader(key, headerDict[key]);
       }
    }
+   console.log(sucessCallback);
    xhr.send();
 }
